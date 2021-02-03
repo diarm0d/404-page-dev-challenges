@@ -1,9 +1,9 @@
-const clientWidth = document.documentElement.clientWidth;
-const clientHeight = document.documentElement.clientHeight;
+const clientWidthNumber = document.documentElement.clientWidth;
+const clientHeightNumber = document.documentElement.clientHeight;
 
 function showMetheMoney() {
-    console.log('height:',clientHeight, 'width:', clientWidth)
+    console.log('height:',clientHeightNumber, 'width:', clientWidthNumber)
 }
 
-clientWidth.addEventListener('change', showMetheMoney);
-clientWidth.addEventListener('change', showMetheMoney);
+clientWidthNumber.addEventListener('change', showMetheMoney);
+clientHeightNumber.addEventListener('change', showMetheMoney);
