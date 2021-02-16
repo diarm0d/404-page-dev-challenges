@@ -3,13 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body {
+    margin: 0;
     background-color: #FFFFFF;
     font-family: 'Space Mono', monospace;
+    height: 1080px;
 }
 
 .logo-content {
-    margin-top: 44px;
-    margin-left: 77px;
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
     font-family: 'Inconsolata', monospace;
     font-style: normal;
     font-weight: bold;
@@ -22,7 +27,7 @@ body {
 
 }
 
-.main-container {
+/* .main-container {
     position: absolute;
     width: 100%;
     top: 24.54vh;
@@ -30,11 +35,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .error-image-container {
-    display: inline-block;
-    top: 24.54vh;
+    /* display: inline-block;
+    top: 24.54vh; */
+    position: absolute;
+    left: 5.35%;
+    right: 57.21%;
+    top: 265px;
+    bottom: 34.03%;
+    width: 540px;
+    height: 450px;
 }
 
 #error-image {
@@ -42,32 +54,39 @@ body {
     height: 450px;
 }
 
-.header-container {
-    display: inline-block;
-    margin-left: 120px;
-}
+/* .header-container {
+    position: absolute;
+} */
 
 .main-header-container {  
+    position: absolute;
     width: 586px;
     height: 190px;
+    left: 735px;
+    top: 265px;
 }
 
 .main-header {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
     font-size: 64px;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    line-height: 95px;
+    letter-spacing: -0.035em;  
     color: #333333;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 .sub-header-container {
-margin-top: 36px;
-width: 381px;
-height: 108px;
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
 }
 
 .sub-header {
-    margin-block-start: 0;
-    margin-block-end: 0;
     font-family: Space Mono;
     font-style: normal;
     font-weight: normal;
@@ -75,10 +94,17 @@ height: 108px;
     line-height: 36px;
     letter-spacing: -0.035em;
     color: #4F4F4F;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
 }
 
 .button-container {
-    margin-top: 64px;
+    /* margin-top: 64px; */
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
 }
 
 .homepage-button {
@@ -101,9 +127,12 @@ height: 108px;
     display: flex;
 }
 
-.footer{
-    position: fixed;
-    bottom: 40px;
+.footer {
+    position: absolute;
+    width: 291px;
+    height: 17px;
+    left: 575px;
+    top: 1039px;
 }
 .footer-container {
     font-family: 'Montserrat', sans-serif;
@@ -115,3 +144,6 @@ height: 108px;
 }
 
 /* Viewport height */
+
+@-o-viewport 
+375px
