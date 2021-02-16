@@ -27,19 +27,8 @@ body {
 
 }
 
-/* .main-container {
-    position: absolute;
-    width: 100%;
-    top: 24.54vh;
-    left: 5.35vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 .error-image-container {
-    /* display: inline-block;
-    top: 24.54vh; */
     position: absolute;
     left: 5.35%;
     right: 57.21%;
@@ -53,10 +42,6 @@ body {
     width: 540px;
     height: 450px;
 }
-
-/* .header-container {
-    position: absolute;
-} */
 
 .main-header-container {  
     position: absolute;
@@ -99,7 +84,6 @@ body {
 }
 
 .button-container {
-    /* margin-top: 64px; */
     position: absolute;
     width: 216px;
     height: 68px;
@@ -145,5 +129,74 @@ body {
 
 /* Viewport height */
 
-@-o-viewport 
-375px
+@media screen and (max-width: 375px) {
+    body {
+        height: 949px;
+    }
+    .logo-content {
+        position: absolute;
+        width: 133px;
+        height: 25px;
+        left: 24px;
+        top: 20px;
+        margin: 0;
+    }
+    .error-image-container {
+        position: absolute;
+        left: 11.73%;
+        right: 11.78%;
+        top: 109px;
+        bottom: 63.44%;        
+        width: 287px;
+        height: 238px;
+    }
+    #error-image {
+        width: 287px;
+        height: 238px;
+    }
+    .main-header-container {
+        position: absolute;
+        width: 350px;
+        height: 142px;
+        left: 24px;
+        top: 407px;
+    }
+    .main-header {
+        width: 350px;
+        height: 142px;
+        font-size: 46px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+    .sub-header-container {
+        position: absolute;
+        width: 328px;
+        height: 81px;
+        left: 23px;
+        top: 579px;
+
+    }
+    .sub-header {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+    }
+    .button-container {
+        position: absolute;
+        width: 216px;
+        height: 68px;
+        left: 24px;
+        top: 726px;
+    }
+    .homepage-button {
+        width: 216px;
+        height: 68px;
+    }
+    .footer {
+        position: absolute;
+        width: 291px;
+        height: 17px;
+        left: 44px;
+        top: 908px;
+    }
+}
